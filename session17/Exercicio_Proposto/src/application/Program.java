@@ -32,7 +32,7 @@ public class Program {
 			while (line != null) {
 				String[] row = line.split(",");
 				Product p = new Product(row[0], Double.valueOf(row[1]), Integer.valueOf(row[2]));
-				try(BufferedWriter bw = new BufferedWriter(new FileWriter(targetPath, true))){
+				try(BufferedWriter bw = new  BufferedWriter(new FileWriter(targetPath, true))){
 					bw.write(p.toString());
 					bw.newLine();
 				} catch (IOException e) {
