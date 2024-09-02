@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Exercicio_Fixacao_1_14/src"/>
+	<classpathentry kind="src" path="Exercicio_Fixacao_2_14/src"/>
+	<classpathentry kind="src" path="ExResolvio1_14/src"/>
+	<classpathentry kind="output" path="ExResolvio1_14/bin"/>
+</classpath>
