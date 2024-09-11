@@ -28,7 +28,7 @@ public class Installement {
 
 	public void setAmount(Double amount) {
 		this.amount = amount;
-	} 
+	}  
 	
 	@Override
 	public String toString() {
